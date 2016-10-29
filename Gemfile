@@ -15,6 +15,7 @@ gem 'jquery-rails'
 
 gem 'carrierwave'
 gem 'rmagick', '~> 2.15'
+gem 'fog-aws'
 
 group :production do
   gem 'pg'
