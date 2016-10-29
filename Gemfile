@@ -13,6 +13,9 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jquery-rails'
 
+gem 'carrierwave'
+gem 'rmagick', '~> 2.15'
+
 group :production do
   gem 'pg'
 end
