@@ -13,12 +13,16 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jquery-rails'
 
+
+
 gem 'carrierwave'
 gem 'rmagick', '~> 2.15'
 gem 'fog-aws'
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
+
 end
 
 group :development, :test do
